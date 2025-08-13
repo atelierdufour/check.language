@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirect…</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script>
+    (function () {
+      var l=(navigator.languages&&navigator.languages[0])||navigator.language||"";
+      l=l.toLowerCase();
+      var t="https://www.de.atelierdufour.ch";
+      if (l.indexOf("fr")===0) t="https://www.fr.atelierdufour.ch";
+      location.replace(t);
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://www.de.atelierdufour.ch">
+  </noscript>
+</head>
+<body></body>
+</html>
